@@ -4,9 +4,7 @@ import java.io.*;
 
 public class Main {
 	public static void main (String[] args) throws java.lang.Exception
-	
 	{
-		
 		Box bigbox =  new Box();
 		bigbox.setDepth(5);
 		bigbox.setHeight(2);
@@ -14,8 +12,5 @@ public class Main {
 		
 		int summa = bigbox.getSum();
 		System.out.println(summa);
-		
 	}
-
-
 }
